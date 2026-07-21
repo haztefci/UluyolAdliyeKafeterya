@@ -5,11 +5,11 @@
       "ad": "AÇMA",
       "icerik": "AÇMA",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/unlumamuller/acma.jpg",
       "fiyat":20,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":20}
+         {"ad":"1 Adet","kalori": null,"fiyat":20}
       ]
    },
    {
@@ -44,11 +44,11 @@
       "ad": "CAFE AMERICANO",
       "icerik": "CAFE AMERICANO",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/cafeamericano.jpg",
       "fiyat":60,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":60}
+         {"ad":"1 Adet","kalori": null,"fiyat":60}
       ]
    },
    {
@@ -57,11 +57,11 @@
       "ad": "CAPUCCINO",
       "icerik": "CAPUCCINO",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/capuccino.jpg",
       "fiyat":75,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":75}
+         {"ad":"1 Adet","kalori": null,"fiyat":75}
       ]
    },
    {
@@ -83,11 +83,11 @@
       "ad": "DEMLİK KIŞ ÇAYI",
       "icerik": "DEMLİK KIŞ ÇAYI",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/demlikkiscayi.jpg",
       "fiyat":60,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":60}
+         {"ad":"1 Adet","kalori": null,"fiyat":60}
       ]
    },
    {
@@ -96,11 +96,11 @@
       "ad": "DİBEK KAHVE",
       "icerik": "DİBEK KAHVE",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/dibekkahve.jpg",
       "fiyat":40,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":40}
+         {"ad":"1 Adet","kalori": null,"fiyat":40}
       ]
    },
    {
@@ -109,11 +109,11 @@
       "ad": "ESPRESSO",
       "icerik": "ESPRESSO",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/espresso.jpg",
       "fiyat":60,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":60}
+         {"ad":"1 Adet","kalori": null,"fiyat":60}
       ]
    },
    {
@@ -122,11 +122,11 @@
       "ad": "IZGARA KÖFTE EKMEK ARASI",
       "icerik": "EKMEK ARASI KÖFTE",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/tost/izgarakofteekmek.jpg",
       "fiyat":180,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":180}
+         {"ad":"1 Adet","kalori": null,"fiyat":180}
       ]
    },
    {
@@ -135,11 +135,11 @@
       "ad": "IZGARA KÖFTE PORSİYON",
       "icerik": "IZGARA KÖFTE, PATATES KIZARTMASI, DOMATES, BİBER, SOĞAN",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/tost/izgarakofte.jpg",
       "fiyat":250,
       "porsiyonlar": [
-         {"ad":"1 Porsiyon","kalori": ,"fiyat":250}
+         {"ad":"1 Porsiyon","kalori": null,"fiyat":250}
       ]
    },
    {
@@ -148,11 +148,11 @@
       "ad": "KARIŞIK TOST",
       "icerik": "KARIŞIK TOST",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/tost/karisiktost.jpg",
       "fiyat":80,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":80}
+         {"ad":"1 Adet","kalori": null,"fiyat":80}
       ]
    },
    {
@@ -161,11 +161,11 @@
       "ad": "KAŞARLI TOST",
       "icerik": "KAŞARLI TOST",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/tost/kasarlitost.jpg",
       "fiyat":80,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":80}
+         {"ad":"1 Adet","kalori": null,"fiyat":80}
       ]
    },
    {
@@ -187,11 +187,11 @@
       "ad": "LATTE",
       "icerik": "LATTE",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/latte.jpg",
       "fiyat":75,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":75}
+         {"ad":"1 Adet","kalori": null,"fiyat":75}
       ]
    },
    {
@@ -200,11 +200,11 @@
       "ad": "LİMONATA",
       "icerik": "LİMONATA",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/limonata.jpg",
       "fiyat":45,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":45}
+         {"ad":"1 Adet","kalori": null,"fiyat":45}
       ]
    },
    {
@@ -239,11 +239,11 @@
       "ad": "MENENGİÇ KAHVE",
       "icerik": "MENENGİÇ KAHVE",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/menengickahve.jpg",
       "fiyat":40,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":40}
+         {"ad":"1 Adet","kalori": null,"fiyat":40}
       ]
    },
    {
@@ -252,11 +252,11 @@
       "ad": "MEYVE SUYU 200 ML",
       "icerik": "MEYVE SUYU 200 ML",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/meyvesuyu.jpg",
       "fiyat":25,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":25}
+         {"ad":"1 Adet","kalori": null,"fiyat":25}
       ]
    },
    {
@@ -278,11 +278,11 @@
       "ad": "PATATES KIZARTMASI",
       "icerik": "PATATES KIZARTMASI",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/tost/patateskizartmasi.jpg",
       "fiyat":75,
       "porsiyonlar": [
-         {"ad":"1 Porsiyon","kalori": ,"fiyat":75}
+         {"ad":"1 Porsiyon","kalori": null,"fiyat":75}
       ]
    },
    {
@@ -291,11 +291,11 @@
       "ad": "POĞAÇA",
       "icerik": "POĞAÇA",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/unlumamuller/pogaca.jpg",
       "fiyat":20,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":20}
+         {"ad":"1 Adet","kalori": null,"fiyat":20}
       ]
    },
    {
@@ -304,11 +304,11 @@
       "ad": "SICAK ÇİKOLATA",
       "icerik": "SICAK ÇİKOLATA",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/icecek/sicakcikolata.jpg",
       "fiyat":30,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":30}
+         {"ad":"1 Adet","kalori": null,"fiyat":30}
       ]
    },
    {
@@ -317,11 +317,11 @@
       "ad": "SİMİT",
       "icerik": "SİMİT",
       "Alerjen": "",
-      "kalori": ,
+      "kalori": null,
       "resim": "images/urunler/unlumamuller/simit.jpg",
       "fiyat":20,
       "porsiyonlar": [
-         {"ad":"1 Adet","kalori": ,"fiyat":20}
+         {"ad":"1 Adet","kalori": null,"fiyat":20}
       ]
    },
    {
