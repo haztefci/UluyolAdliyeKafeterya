@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bursa Hakimevi | Ürün Detayı</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+
+body{
+
+background:#f5f5f0;
+font-family:'Segoe UI',sans-serif;
+
+}
+
+.header{
+
+background:#0B2341;
+color:white;
+padding:18px;
+border-radius:0 0 20px 20px;
+box-shadow:0 4px 15px rgba(0,0,0,.20);
+
+}
+
+.back{
+
+color:white;
+font-size:28px;
+text-decoration:none;
+
+}
+
+.cardMenu{
+
+background:white;
+margin-top:20px;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 8px 25px rgba(0,0,0,.15);
+
+}
+
+.cardMenu img{
+
+width:100%;
+height:320px;
+object-fit:cover;
+
+}
+
+.cardBody{
+
+padding:25px;
+
+}
+
+.urunAdi{
+
+font-size:32px;
+font-weight:bold;
+color:#0B2341;
+
+}
+
+.fiyat{
+
+font-size:34px;
+font-weight:bold;
+color:#D4AF37;
+
+}
+
+.kalori{
+
+color:#777;
+font-size:18px;
+
+}
+
+.baslik{
+
+font-size:22px;
+font-weight:bold;
+margin-top:30px;
+color:#0B2341;
+
+}
+
+.icerik{
+
+line-height:35px;
+font-size:18px;
+
+}
+
+.porsiyon{
+
+background:#F8F8F8;
+border-radius:15px;
+padding:15px;
+margin-top:20px;
+
+}
+
+.altMenu{
+
+height:40px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="d-flex align-items-center">
+
+<a href="javascript:history.back()" class="back">
+
+<i class="bi bi-arrow-left-circle"></i>
+
+</a>
+
+<h4 class="ms-3 mb-0">
+
+Ürün Detayı
+
+</h4>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<div class="cardMenu" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+
+<img id="resim" src="" style="width: 350px !important; height: 350px !important; min-width: 350px !important; min-height: 350px !important; flex-shrink: 0 !important; object-fit: contain;">
+
+<div class="cardBody">
+
+<div id="urunAdi" class="urunAdi"></div>
+
+<div id="fiyat" class="fiyat mt-2"></div>
+
+
+
+<div class="baslik">
+
+İçeriği
+
+</div>
+
+<div id="icerik" class="icerik">
+
+</div>
+
+<div class="baslik">
+
+Alerjen Durumu
+
+</div>
+
+<div id="Alerjen" class="Alerjen">
+
+</div>
+
+<div class="baslik">
+
+Porsiyon Kalori ve Fiyat Listesi
+
+</div>
+
+<div id="porsiyonlar">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="altMenu"></div>
+
+<script>
+
+const url = new URLSearchParams(window.location.search);
+const id = parseInt(url.get("id"));
+
+fetch("data/menu.json")
+.then(r => r.json())
+.then(data => {
+
+    let urun = data.find(x => x.id == id);
+
+    if (!urun) {
+
+        document.body.innerHTML =
+        "<h2 class='text-center mt-5'>Ürün bulunamadı.</h2>";
+
+        return;
+    }
+
+    document.title = urun.ad + " | Bursa Hakimevi";
+
+    document.getElementById("urunAdi").innerHTML = urun.ad;
+
+    document.getElementById("fiyat").innerHTML =
+        "Porsiyon Fiyatı : <b>₺ " + Number(urun.fiyat).toLocaleString("tr-TR") + "</b>";
+
+   
+
+    document.getElementById("icerik").innerHTML = urun.icerik;
+    document.getElementById("Alerjen").innerHTML = urun.Alerjen;
+
+    document.getElementById("resim").src = urun.resim;
+
+    document.getElementById("resim").onerror = function(){
+
+        this.src="images/noimage.jpg";
+
+    };
+
+    let html = "";
+
+    urun.porsiyonlar.forEach(function(p){
+
+        html += `
+
+<div class="porsiyon">
+
+    <div class="row align-items-center">
+
+        <div class="col-4">
+
+            <div class="fw-bold text-primary">
+
+                ${p.ad}
+
+            </div>
+
+        </div>
+
+        <div class="col-4 text-center">
+
+            <span class="text-danger">
+
+                <i class="bi bi-fire"></i>
+
+                ${p.kalori} kcal
+
+            </span>
+
+        </div>
+
+        <div class="col-4 text-end">
+
+            <span class="fw-bold text-success">
+
+                ₺ ${Number(p.fiyat).toLocaleString("tr-TR")}
+
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+`;
+
+    });
+
+    document.getElementById("porsiyonlar").innerHTML = html;
+
+})
+.catch(function(){
+
+    document.body.innerHTML =
+
+    "<h2 class='text-center mt-5 text-danger'>Menü verisi okunamadı.</h2>";
+
+});
+
+</script>
+
+</body>
+
+</html>
