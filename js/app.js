@@ -1,5 +1,5 @@
 /*====================================================
- BURSA HAKİMEVİ DİJİTAL MENÜ
+ ULUYOL ADLİYE KAFETERYA DİJİTAL MENÜ
  app.js
 ====================================================*/
 
@@ -73,7 +73,7 @@ function kategoriAdi(kategori){
 
 function kategoriGit(kategori){
 
-    location.href="hurunler.html?hkategori="+kategori;
+    location.href="urunler.html?kategori="+kategori;
 
 }
 
@@ -81,7 +81,7 @@ function kategoriGit(kategori){
 
 function urunGit(id){
 
-    location.href="hurun.html?id="+id;
+    location.href="urun.html?id="+id;
 
 }
 
