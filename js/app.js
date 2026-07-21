@@ -73,7 +73,7 @@ function kategoriAdi(kategori){
 
 function kategoriGit(kategori){
 
-    location.href="urunler.html?kategori="+kategori;
+    location.href="hurunler.html?hkategori="+kategori;
 
 }
 
@@ -81,7 +81,7 @@ function kategoriGit(kategori){
 
 function urunGit(id){
 
-    location.href="urun.html?id="+id;
+    location.href="hurun.html?id="+id;
 
 }
 
