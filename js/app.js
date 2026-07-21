@@ -56,9 +56,9 @@ function kategoriAdi(kategori){
 
     const kategoriler={
 
-        unlumamuller:"🥩 Simit, poğaça, açma",
+        unlumamuller:"🥯 Simit, poğaça, açma",
 
-        tost:"🍕 Tost ve Köfteler",
+        tost:"🥪 Tost ve Köfteler",
 
         icecek:"🥤 İçecekler",
      
